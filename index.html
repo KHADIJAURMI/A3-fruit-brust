@@ -179,21 +179,47 @@
         <!-- Include Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
-    <!--Deal Of tHe Day  -->
-    <section class="my-24">
-        <!-- Title part -->
-        <div>
-            <div>
-             <h3 class="text-5xl font-extrabold">Deal of the day</h3>
-             <p class="text-base font-medium mt-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <!--Deal Of tHe Day  -->
+        <section class="my-24">
+            <!-- Title part -->
+            <div class="flex justify-between">
+                <div>
+                    <h3 class="text-5xl font-extrabold">Deal of the day</h3>
+                    <p class="text-base font-medium mt-3">Contrary to popular belief, is not simply random text. It has
+                        roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+                <!-- Timer -->
+                <div class="grid grid-flow-col gap-3 text-center auto-cols-max">
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:29;"></span>: 
+                    </span>
+                      <span class="text-base font-medium text-gray-500">Days</sapn>
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>:
+                      </span>
+                      <span class="text-base font-medium text-gray-500">Hours</span>
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:25;"></span>:
+                      </span>
+                      <span class="text-base font-medium text-gray-500"> Minutes</span>
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:08;"></span>
+                      </span>
+                      <span class="text-base font-medium text-gray-500">Seconds</span>
+                    </div>
+                  </div>
             </div>
-            <div>
-
-            </div>
-         </div>
-        <!-- Card Part -->
-        <div></div>
-    </section>
+            <!-- Card Part -->
+            <div></div>
+        </section>
 </body>
 
 </html>
