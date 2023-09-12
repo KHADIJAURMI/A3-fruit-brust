@@ -300,20 +300,16 @@
         </section>
 
         <!-- Team Section -->
-        <section class="my-24">
+        <section class="my-24 relative">
             <!-- background img -->
-            <div class="w-full h-screen bg-no-repeat bg-cover bg-scroll gradient-bg "
-                style="background-image: url('images/team.png');">
-                <div class="relative top-20 ">
-                    <h3 class="text-5xl font-extrabold text-center text-white">Meet the team section</h3>
-                    <p class="text-center mt-6 text-white">Contrary to popular belief, is not simply random text. It has
-                        roots in a piece of classical<br>Latin literature from 45 BC, making it over 2000 years old.</p>
-                </div>
+            <div class="hero  w-full h-screen bg-no-repeat bg-cover 
+            bg-scroll gradient-bg "style="background-image: url('images/team.png');"> <div class="hero-overlay bg-opacity-60"></div>
+                
                 <!-- team member details -->
-                <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-14">
+                <div class="grid gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-14">
 
                     <!-- 1st mem -->
-                    <div class="flex flex-col justify-center items-center space-y-2 pl-28">
+                    <div class="flex flex-col justify-center items-center space-y-2 relative left-10 z-10">
                         <figure class="px-12 pt-10 ">
                             <img src="/images/member1.png" class="w-28 flex items-center" alt="Shoes"
                                 class="rounded-xl" />
@@ -330,7 +326,7 @@
                         </div>
                     </div>
                     <!-- 2nd mem -->
-                    <div class="flex flex-col items-center space-y-2">
+                    <div class="flex flex-col justify-center items-center space-y-2 relative z-10">
                         <figure class="px-12 pt-10 ">
                             <img src="/images/member2.png" class="w-28 flex items-center" alt="Shoes"
                                 class="rounded-xl" />
@@ -347,7 +343,7 @@
                         </div>
                     </div>
                     <!-- 3rd Mem -->
-                    <div class="flex flex-col items-center space-y-2">
+                    <div class="flex flex-col justify-center items-center space-y-2 relative z-10">
                         <figure class="px-12 pt-10 ">
                             <img src="/images/member3.png" class="w-28 flex items-center" alt="Shoes"
                                 class="rounded-xl" />
@@ -363,10 +359,62 @@
                                 style="color: white; font-size: 24px;"></i>
                         </div>
                     </div>
+                    <!-- 4th Mem -->
+                    <div class="flex flex-col justify-center items-center space-y-2 relative z-10">
+                        <figure class="px-12 pt-10 ">
+                            <img src="/images/member4.png" class="w-28 flex items-center" alt="Shoes"
+                                class="rounded-xl" />
+                        </figure>
+                        <h2 class="font-bold text-white text-2xl mt-3">Safia Chowdhury</h2>
+                        <p class="text-center text-white">Fruits Expert</p>
+                        <div class="flex flex-row gap-2">
+                            <i class="fa-brands fa-facebook rounded-full bg-[#e51f1f]"
+                                style="color: white; font-size: 24px;"></i>
+                            <i class="fa-brands fa-twitter rounded-full bg-[#e51f1f]"
+                                style="color: white; font-size: 24px;"></i>
+                            <i class="fa-brands fa-linkedin-in rounded-full bg-[#e51f1f]"
+                                style="color: white; font-size: 24px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Title part -->
+                <div class="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-3/4 z-20">
+                    <h3 class="text-5xl font-extrabold text-center text-white mt-5">Meet the team section</h3>
+                    <p class="text-center mt-6 text-white">Contrary to popular belief, is not simply random text. It has
+                        roots in a piece of classical<br>Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
             </div>
         </section>
 
+        <!-- Why choose section -->
+        <section class="my-24">
+            <!-- Head part -->
+            <div class="flex flex-col">
+                <div class="mt-3 text-center">
+                    <h3 class="text-5xl font-extrabold ">
+                        Why Choose Us
+                    <h3>
+                    <p class="text-base font-medium mt-3 text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+            </div>
+            <!-- Choose Content -->
+            <div class="hero min-h-screen bg-base-200">
+                <div class="hero-content flex-col lg:flex-row">
+                    <div>
+                        <h1 class="text-5xl font-bold">Box Office News!</h1>
+                        <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                  <img src="/images/whychoose1.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+        </section>
     </main>
 
     <!-- footer section -->
